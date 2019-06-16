@@ -32,6 +32,9 @@ public class ClassTestNGOne {
 	    
 	    ClassShipping ship = new ClassShipping(driver);
 	    ship.shipping();
+	    
+	    ClassDemoForJenkinsGit demo = new ClassDemoForJenkinsGit();
+	    demo.democlass();
 	}
 
 	@BeforeTest
